@@ -45,6 +45,7 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 3.1'
   gem 'pry-rails'
   gem 'factory_girl_rails'
+  gem 'json_spec'
 end
 
 group :development do
