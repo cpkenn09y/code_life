@@ -99,4 +99,8 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+
+  # Adding JsonSpec helpers
+  # https://github.com/collectiveidea/json_spec
+  config.include JsonSpec::Helpers
 end
