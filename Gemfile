@@ -31,7 +31,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Add colorize to be able to print Strings with color
+# https://github.com/fazibear/colorize
 gem 'colorize'
+
+# Adding rails_config to be able to have keep environment specific Settings
+# https://github.com/railsconfig/config
+gem 'config'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
