@@ -21,5 +21,9 @@ module CodeLife
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+
+    # Autoload lib directory
+    config.autoload_paths << Rails.root.join('lib')
   end
 end
+
